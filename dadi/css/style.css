@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body, input, button{
+    font-family:'Segoe UI', sans-serif
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.wrap{
+    background-image: linear-gradient(to top right,  #f0f8ff , #e9c44c 50%, #f3f9ff);
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.content-punteggio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+
+#pulsante-gioco{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0px 50px 0px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+#vincitore{
+    margin: 30px 0px 20px 0px;
+}
+
+.content-punteggio{
+    font-size: 17px;
+}
+
